@@ -1,0 +1,24 @@
+------ Section 1 --------
+import os, sys
+BASE_PATH='<<path to drive where environment settings will be preserved>>'
+nb_path = '/content/notebook'
+os.symlink(BASE_PATH, nb_path)
+sys.path.insert(0, nb_path)
+------ Section 1 --------
+
+------ Section 2 --------
+!pip install sklearn --target $nb_path
+!pip install nltk --target $nb_path
+!pip install pyspellchecker --target $nb_path
+!pip install emoji --target $nb_path
+!pip install Pycld2 --target $nb_path
+!pip install contractions --target $nb_path
+!pip install textblob --target $nb_path
+!pip install openpyxl --target $nb_path
+!pip install matplotlib --target $nb_path
+!pip install tensorflow --target $nb_path
+!pip install tensorflow_addons --target $nb_path 
+!pip install keras_self_attention --target $nb_path 
+------ Section 2 --------
+
+Section 2 execution is needed only once. For subsequent usage, only Section 1 should be executed at noteook start

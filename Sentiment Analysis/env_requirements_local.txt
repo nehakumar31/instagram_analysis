@@ -1,0 +1,12 @@
+!pip install sklearn
+!pip install nltk
+!pip install pyspellchecker
+!pip install emoji
+!pip install Pycld2
+!pip install contractions
+!pip install textblob
+!pip install openpyxl
+!pip install matplotlib
+!pip install tensorflow
+!pip install tensorflow_addons
+!pip install keras_self_attention
