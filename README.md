@@ -10,7 +10,8 @@ To detect entities that are fast growing on internet with the help of use cases 
 **Sentiment Analysis:** Sentiment prediction of comments posted on media/posts of an Instagram profile <br>
 **Network Analysis:** Determine spread of an entity with various network metrics like betweeness, centrality, closeness etc. Computation of these metrics consider relation between beauty entities and the suggested profiles for each. Instagram suggestion algorithm pays attention to all forms of engagement likes, comments, and time spent on a given profile. This approach reflects real interest/engagement of people with any entity than just looking at percent of followers increase as followers may or may not be real.
 
-# Future Work
+# Future Work 
+Continue on network analysis using Instagram profile details like posts, comments on each post with weightage being assigned.
 
 
 # Flow/Sequence
