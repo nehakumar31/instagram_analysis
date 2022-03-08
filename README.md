@@ -12,6 +12,7 @@ To detect entities that are fast growing on internet with the help of use cases 
 
 # Future Work 
 Continue on network analysis using Instagram profile details like posts, comments on each post with weightage being assigned.
+![image](https://user-images.githubusercontent.com/65956949/157179313-b41b5bc7-9f70-420b-b23f-786833df3ddd.png)
 
 
 # Flow/Sequence
@@ -23,7 +24,7 @@ Nodejs for data scraping and writes profile data to its own json file<br>
 Python modules like pyspellchecker, emoji, textblob, contractions, etc. for intermediary clean-up and data preparation<br>
 Python scikit-learn machine learning, NLP modules like nltk, tensorflow, tensorflow_addons, keras_self_attention for sentiment analysis<br>
 Python NetworkX for network analysis<br>
-Python streamlit for results display
+Python streamlit for display of results
 
 # Installation
 Packages needed for Environment readiness for each module is specified in env_requirements.tx file in respective directories
